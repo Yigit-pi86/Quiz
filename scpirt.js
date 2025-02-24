@@ -616,6 +616,25 @@
       }
     };
 
+ function chooseCategory(category, buttonElement) {
+  currentCategory = category;
+  // Deaktiviere den ausgewählten Button
+  buttonElement.disabled = true;
+  // Verberge den Kategorie-Container und zeige den Schwierigkeits-Container an
+  document.getElementById('category-container').style.display = 'none';
+  document.getElementById('difficulty').style.display = 'block';
+}
+
+function chooseDifficulty(difficulty, buttonElement) {
+  currentDifficulty = difficulty;
+  // Deaktiviere den ausgewählten Button
+  buttonElement.disabled = true;
+  // Verberge den Schwierigkeits-Container
+  document.getElementById('difficulty').style.display = 'none';
+  // Starte den Spielrunden-Prozess
+  startGameRound();
+}
+
   
     // Funktionen
     function startSoloGame() {
