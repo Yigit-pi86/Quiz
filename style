@@ -14,7 +14,7 @@
     #quiz-container {
       margin: 20px auto;
       padding: 20px;
-      background: white;
+      background: red;
       border-radius: 10px;
       width: 100%;
       max-width: 1000px;
