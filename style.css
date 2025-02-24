@@ -7,10 +7,10 @@
     }
     #quiz-container {
       margin: 20px auto;
-      padding: 800px;
+      padding: 20px;
       background: white;
       border-radius: 10px;
-      width: 100%;
+      width: 90%;
       max-width: 1000px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
