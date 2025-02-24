@@ -8,7 +8,6 @@
     let currentTeamIndex = 0;
     let jokerUsedThisRound = false;
 
-    // Fragen-Daten 
     const questions = {
       "BSK": {
         "Standard": {
