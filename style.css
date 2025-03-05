@@ -13,10 +13,10 @@
     }
     #quiz-container {
       margin: 400px auto;
-      padding: 20px;
+      padding: 60px;
       background: red;
-      border-radius: 10px;
-      width: 90%;
+      border-radius: 60px;
+      width: 100%;
       max-width: 1000px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
