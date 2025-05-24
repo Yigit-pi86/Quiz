@@ -35,7 +35,7 @@
     button:hover {
       background-color: #0056b3;
     }
-    h1, h2, #question {
+    #question {
       font-size: 30px;
       margin-bottom: 20px;
       margin-top: 20px;
